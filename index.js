@@ -6,9 +6,10 @@ const epee = new Weapon("Epee");
 const bouclier = new Shield("Bouclier");
 
 /** Create Heracles  */
-const heracles = new Fighter("🧔 Heracles", 20, 6);
-heracles.Weapon = epee;
-heracles.Shield = bouclier;
+const heracles = new Fighter("🧔 Heracles", 20, 6, epee, bouclier );
+//heracles.Weapon = epee;
+//heracles.Shield = bouclier;
+console.log(heracles);
 /** Create the opponent  */
 const boar = new Fighter("🐗 Boar", 25, 12);
 
